@@ -13,6 +13,16 @@ const staggerFrames = 4;
 
 const playerIdle = new Image();
 playerIdle.src = "./assets/player/player-idle.png";
+const playerRun = new Image();
+playerRun.src = "./assets/player/player-run.png";
+const playerDeath = new Image();
+playerDeath.src = "./assets/player/player-death.png";
+const playerHurt = new Image();
+playerHurt.src = "./assets/player/player-hurt.png";
+const playerJump = new Image();
+playerJump.src = "./assets/player/player-jump.png";
+const playerRoll = new Image();
+playerRoll.src = "./assets/player/player-roll.png";
 
 playerIdleWidth = 480;
 
