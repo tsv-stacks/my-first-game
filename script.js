@@ -2,20 +2,20 @@ const character = document.getElementById("character");
 const block = document.getElementById("block");
 const startBtn = document.getElementById("start-btn");
 
-const checkStatus = () => {
-  setInterval(() => {
-    let characterTop = parseInt(
-      window.getComputedStyle(character).getPropertyValue("top")
-    );
-    let blockLeft = parseInt(
-      window.getComputedStyle(block).getPropertyValue("left")
-    );
-    if (blockLeft < 20 && blockLeft > 0 && characterTop >= 130) {
-      block.classList.remove("blockanimate");
-      alert("Game Over");
-    }
-  }, 10);
-};
+// const checkStatus = () => {
+//   setInterval(() => {
+//     let characterTop = parseInt(
+//       window.getComputedStyle(character).getPropertyValue("top")
+//     );
+//     let blockLeft = parseInt(
+//       window.getComputedStyle(block).getPropertyValue("left")
+//     );
+//     if (blockLeft < 20 && blockLeft > 0 && characterTop >= 130) {
+//       block.classList.remove("blockanimate");
+//       alert("Game Over");
+//     }
+//   }, 10);
+// };
 
 const jump = () => {
   if (character.classList != "animate") {
